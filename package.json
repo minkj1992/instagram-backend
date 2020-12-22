@@ -1,0 +1,33 @@
+{
+  "name": "instagram-backend",
+  "version": "1.0.0",
+  "description": "instagram clone coding backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --exec babel-node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/minkj1992/instagram-backend.git"
+  },
+  "keywords": [
+    "instagram",
+    "express",
+    "graphql",
+    "prisma"
+  ],
+  "author": "minkj1992",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/minkj1992/instagram-backend/issues"
+  },
+  "homepage": "https://github.com/minkj1992/instagram-backend#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "graphql-yoga": "^1.18.3"
+  }
+}
