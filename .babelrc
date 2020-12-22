@@ -1,0 +1,9 @@
+// 공식 바벨 preset plugin 모음(bundle)
+// @babel/preset-env
+// @babel/preset-flow
+// @babel/preset-react
+// @babel/preset-typescript
+
+{
+    "presets": ["@babel/preset-env"]
+}

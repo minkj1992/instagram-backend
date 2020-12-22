@@ -24,10 +24,13 @@
   },
   "homepage": "https://github.com/minkj1992/instagram-backend#readme",
   "devDependencies": {
-    "@babel/cli": "^7.12.10",
     "nodemon": "^2.0.6"
   },
   "dependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/node": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "dotenv": "^8.2.0",
     "graphql-yoga": "^1.18.3"
   }
 }
